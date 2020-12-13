@@ -1,0 +1,165 @@
+
+body {font-family: Verdana, sans-serif; margin:0; color: #454545;}
+html {
+  scroll-behavior: smooth;
+  transition: .5s;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#fafafa;
+}
+
+nav li {
+  float: left;
+  user-select: none;
+}
+
+nav li a.nav {
+  text-decoration: none;
+  color: #454545;
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+nav .right {
+  float: right;
+}
+
+nav li a.nav:hover {
+  text-decoration: none;
+  background-color: rgb(255, 118, 39);
+  color: #fafafa;
+}
+
+nav li a.nav:active {
+  background-color: #363636;
+  color: #fafafa;
+}
+
+nav .lgHolder {
+  padding: 15 20;
+  margin-right: 10px;
+  user-select: none;
+}
+
+nav strong {
+  font-size: medium;
+}
+
+.Mail {
+  color: #464646;
+}
+
+.Mail:hover {
+  color: rgb(255, 118, 39);
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.linkFooter ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ol li {
+  float: left;
+  user-select: none;
+}
+
+ol a {
+  color: #454545;
+  display: inline;
+  padding: 0;
+  margin: 10px;
+  text-decoration: none;
+}
+
+ol a:hover {
+  color: rgb(255, 118, 39);
+  text-decoration: none;
+  transition: 0.20s;
+}
+
+/*Card*/
+.card {
+  float: left;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  max-width: 300px;
+  margin-left: 55px;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: transform .2s;
+  border-radius: 2%;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+#pdImg {
+  height: 300px;
+  transition: transform .2s;
+  border-radius: 2%;
+}
+
+#pdImg:hover {
+  transform: scale(1.3);
+  border-radius: 2%;
+  border: 1px solid grey;
+  position: relative;
+}
+/*Button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: rgb(255, 118, 39);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(255, 118, 39);
+  transition: .2s;
+  color: white;
+}
